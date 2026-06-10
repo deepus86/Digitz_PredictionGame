@@ -1,0 +1,19 @@
+# Secrets — NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Local dev / throwaway (not part of the deployed app)
+server.js
+deploy/
+mock-*.html
+recap-test.html
+.claude/
